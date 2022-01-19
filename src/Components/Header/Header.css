@@ -1,0 +1,17 @@
+.header_container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: rgb(68, 155, 248);
+
+
+}
+.header_details{
+    margin-right: 30px;
+}
+.image_container img{
+    height: 150px;
+    width: 450px;
+    margin-left: 10px;
+    border-radius: 5px;
+}

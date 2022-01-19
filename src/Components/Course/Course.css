@@ -1,0 +1,41 @@
+.course_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 5px;
+    /* justify-content: center;
+    align-items: center; */
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid rgb(202, 168, 16);
+}
+/* .course_image{
+    background-color: rgb(235, 155, 155);   
+} */
+.course_image img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    
+}
+.course_details{
+     
+    margin-left: 5px;
+}
+.course_details button{
+    color: rgb(253, 244, 234);
+    background-color: rgb(122, 87, 104);
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bolder;
+    border:none;
+    
+
+}
+.course_details button .shopping{
+color: rgb(152, 204, 211);
+margin-right: 5px;
+font-size: 20px;
+}
+.icon-star{
+    color:  #666d75;
+}

@@ -1,0 +1,14 @@
+.shop_container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-top: 20px;
+}
+.cart_container{
+    margin-left: 5px;
+    border: 10px solid rgb(185, 195, 235);
+    background-color: rgb(134, 175, 155);
+    height: 400px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
